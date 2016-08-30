@@ -1,16 +1,22 @@
 'use strict';
 
 module.exports = {
-  "parserOptions": {
-    "ecmaFeatures": {
-      "jsx": true
-    }
-  },
-  "plugins": [
-    "react"
-  ],
   "extends": [
-    "plugin:react/recommended",
     "airbnb/base"
-  ]
+  ],
+  "rules": {
+    "import/no-unresolved": 0,
+    "no-underscore-dangle": [
+      "error",
+      {
+        "allow": [
+          "_id",
+          "_ensureIndex",
+          "_verifyEmailToken",
+          "_resetPasswordToken",
+          "_name"
+        ]
+      }
+    ]
+  }
 }
