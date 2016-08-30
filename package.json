@@ -18,6 +18,6 @@
     "eslint": "2.x",
     "eslint-plugin-react": "^5.2.2",
     "eslint-config-airbnb": "^9.0.1",
-    "eslint-plugin-require-path-exists": "^1.1.5"
+    "eslint-plugin-meteor": "^3.6.0"
   }
 }
