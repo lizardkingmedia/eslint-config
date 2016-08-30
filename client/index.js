@@ -4,7 +4,8 @@ module.exports = {
   "extends": "@seed-media/eslint-config",
 
   "env": {
-    "browser": true
+    "browser": true,
+    "es6": true
   },
 
   "rules": {
