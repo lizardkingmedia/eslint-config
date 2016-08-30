@@ -1,0 +1,23 @@
+{
+  "name": "@seed-media/eslint-config",
+  "version": "0.0.1",
+  "description": "Seed Media's ESLint configurations.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seed-media/eslint-config.git"
+  },
+  "bugs": {
+    "url": "https://github.com/seed-media/eslint-config/issues"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
+  "peerDependencies": {
+    "eslint": "2.x",
+    "eslint-plugin-react": "^5.2.2",
+    "eslint-config-airbnb": "^9.0.1",
+    "eslint-plugin-require-path-exists": "^1.1.5"
+  }
+}
