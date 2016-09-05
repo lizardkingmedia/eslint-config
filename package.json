@@ -1,6 +1,6 @@
 {
   "name": "@seed-media/eslint-config",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Seed Media's ESLint configurations.",
   "main": "index.js",
   "repository": {
