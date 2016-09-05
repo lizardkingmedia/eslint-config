@@ -3,6 +3,7 @@
   "version": "0.0.5",
   "description": "Seed Media's ESLint configurations.",
   "main": "index.js",
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/seed-media/eslint-config.git"
