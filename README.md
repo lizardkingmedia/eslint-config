@@ -12,6 +12,5 @@ Next, install any necessary peer dependencies warned about when you ran the abov
 
 # Usage
 
-This repository comes with three different main configurations: client, server, and mocha. Check each directory's README.md for usage information.
+This repository comes with two different main configurations: client and Meteor. Check the respective directory's README.md for usage information.
 
-For more details about how ESLint's shareable configurations work, see the [ESLint documentation](http://eslint.org/docs/developer-guide/shareable-configs).
