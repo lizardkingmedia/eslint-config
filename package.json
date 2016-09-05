@@ -1,6 +1,6 @@
 {
   "name": "@seed-media/eslint-config",
-  "version": "0.0.3",
+  "version": "0.0.5",
   "description": "Seed Media's ESLint configurations.",
   "main": "index.js",
   "repository": {
@@ -14,16 +14,15 @@
     "eslint",
     "eslintconfig"
   ],
-  "devDependencies": {
+  "dependencies": {
     "eslint": "2.x",
     "eslint-plugin-react": "^5.2.2",
     "eslint-config-airbnb": "^9.0.1",
     "eslint-plugin-meteor": "^3.6.0"
   },
-  "peerDependencies": {
-    "eslint": "2.x",
-    "eslint-plugin-react": "^5.2.2",
-    "eslint-config-airbnb": "^9.0.1",
-    "eslint-plugin-meteor": "^3.6.0"
+  "devDependencies": {
+    "eslint": "^2.13.1",
+    "eslint-plugin-import": "^1.14.0",
+    "eslint-plugin-jsx-a11y": "^1.5.5"
   }
 }
